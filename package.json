@@ -1,0 +1,19 @@
+{
+  "name": "simple-dashboard",
+  "version": "1.0.0",
+  "description": "⭐ Simple dashboard Is new npm package that help you malé your bot more profesionál ⭐",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozo233/Simple-dashboard.git"
+  },
+  "author": "Jozo_85",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jozo233/Simple-dashboard/issues"
+  },
+  "homepage": "https://github.com/Jozo233/Simple-dashboard#readme"
+}
