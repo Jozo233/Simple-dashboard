@@ -2,53 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 <body>
 
-<style>
-    body {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  background-color: #0c0f15;
-  overflow-x:hidden;
-  color: #ababab; }
+    <style>
+		button {
+			color: #ffffff;
+			background-color: #2d63c8;
+			font-size: 22px;
+			border: 1px solid #2d63c8;
+			padding: 15px 50px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #2d63c8;
+			background-color: #ffffff;
+		}
+	</style>
 
-
-
-</style>
-
-
-    <div>
-        <h1 style="padding-left: 50px; font-size: 15px;">You Bot</h1>         
-    </div>    
-
-    <div style="padding-top: 15px; padding-left: 50px;">
-        <h1 style="font-size: 45px;">You bot</h1>
-        <p></p>
-        <h1 style="font-size: 45px;">Dashboard</h1>
-        <h3>Serving 8 members
-            In 1 servers</h3>
+    <div style="font-size:larger;">
+        <h1>You bot</h1>
+        <p>Serving 16. Member in 8 server!</p>
     </div>
 
+    <center>
+        <div style="font-size: larger; padding-top: 80px;">
+            <h1>About us</h1>
+            <p>You can edit this also in panel</p>
 
+        </div>
+    </center>
 
-    <footer >
-        <center>
-            <a>YOU BOT &copy; <span id="rok"></span></a>
-            <p></p>
-            <a>THIS PROJEKT USING SIMPLE DASHBOARD BY JOZO85</a>
-        </center>
-    </footer>
+    <center>
+        <div style="font-size: larger; padding-top: 80px;">
+            <h1>Commands</h1>
 
-
-    <script>
-      document.getElementById("rok").innerHTML = new Date().getFullYear();
-    </script>
+            <h3>Help</h3>
+            <p>Send all commands</p>
+            <br>
+            <h3>Example command</h3>
+            <p href="./Panel/login.html">Example description. You can edit it in Panel</p>
+            <br>
+            <button type="button" name="myButton">See all command</button>
+        </div>
+    </center>
     
 </body>
 </html>
