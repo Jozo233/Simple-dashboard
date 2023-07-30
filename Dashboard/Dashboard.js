@@ -3,9 +3,15 @@ const path = require('path')
 const fs = require('fs')
 const bodyParser = require("body-parser")
 
+// Utils
+const update = require("../Util/UpdateUtil");
+
+
 class Dashboard{
     constructor(params) {
         this.params = params;
+
+        update.checkVersion();
 
         console.log("[SD] Initializing")
         if(!params.customIndex){

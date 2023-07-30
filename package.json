@@ -1,7 +1,7 @@
 {
   "name": "simple-dashboard",
   "version": "1.0.0",
-  "description": "⭐ Simple dashboard Is new npm package that help you malé your bot more profesionál ⭐",
+  "description": "⭐ Simple dashboard Is new npm package that help you make your bot more profesional ⭐",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
